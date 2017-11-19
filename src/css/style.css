@@ -1,0 +1,42 @@
+.color1{
+	background-color: #123;
+}
+.color2{
+	background-color: #758454;
+}
+.color3{
+	background-color: #234676;
+}
+.color4{
+	background-color: #987532;
+}
+.color5{
+	background-color: #534521;
+}
+.color6{
+	background-color: #744234;
+}
+#content {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+   }
+   
+#country{
+	border-bottom: 3px solid black;
+}
+
+   
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+	
+	/*position: fixed; 
+	bottom: 0; 
+	padding: 10px; 
+	background-color: #eee; 
+	color: #eee; 
+	width: 100%; */
+}

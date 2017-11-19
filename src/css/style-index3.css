@@ -1,0 +1,38 @@
+/*.header{
+	position:absolute;
+  	top:0;
+  	height: 30px;
+	background-color: red;
+}
+
+.content{
+	flex: block;
+	background-color: green;
+}
+
+.footer{
+	position:absolute;
+  	bottom:0;
+  	height: 30px;
+	background-color: blue;
+}*/
+
+#header {
+    height: 30px;
+    background-color: red;
+}
+#footer {
+	background-color: green;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+#content {
+	background-color: blue;
+}
+
+body {
+    height: 100%;
+    margin-bottom: 30px;
+}

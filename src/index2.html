@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GOGLEE [Pacman]</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="img/icon.png">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<div class="container-fluid" >
+			<div class="row">
+				<div class="col-md-3">
+					<a class="navbar-brand" href="#">Goglee Inc.</a>
+				</div>
+				<div class="col-md-4 col-md-offset-5 col-sm-5 col-sm-offset-4">
+						<button type="button" class="btn btn-default">Почта</button>
+						<button type="button" class="btn btn-default">Картинки</button>
+						<button type="button" class="btn btn-default"><img src="img\Без названия.png" width="23px"></button>
+						<button type="button" class="btn btn-default"><img src="img\bell-1_icon-icons.com_70303.png" width="23px"></button>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" ><img src="img\Иконка польковотеля.png" width="23px"></button>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="center-block" >
+				<form action="https://www.google.ru/search" method="get">
+					<center><img width="30%" src="img\Поисковик.png"></center>
+					<center><input type="text" name="q" style="width: 500px"></center><br>
+					<center><input type="submit" value="Поиск в Goglee" style="width:120px;height:50px"></input>&#160
+					<input type="button" value="Мне повезёт!" style="width:120px;height:50px"></input></center>
+				</form>
+			</div>
+
+
+			
+			<div class="footer">
+				<div class="row">
+					<div id="country" class="col-sm-12">Россия</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-1">Реклама</div>
+					<div class="col-lg-1">Для бизнеса</div>
+					<div class="col-lg-1">Всё о Goglee</div>
+					<div class="col-lg-5"></div>
+					<div class="col-lg-2">Конфиндециальность</div>
+					<div class="col-lg-1">Условия</div>
+					<div class="col-lg-1">Настройки</div>
+				</div>
+			</div>
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog modal-sm" style="width: 50%;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Выбор аккаунта</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-3">
+								<img src="img/user_icon.png" class="img-circle" alt="Cinque Terre" width="85px" height="85px"> 
+							</div>
+							<div class="col-md-9">
+								<h2>User Name</h2>
+								<p class="text-muted">username@goglee.com</p>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<a href="test3.html">
+							<div class="col-md-3">
+								<img src="img/plus2.png" class="img-circle" alt="Cinque Terre" width="85px" height="85px" style="border: solid 5px #444; ">
+							</div>
+							<div class="col-md-9">
+								<h2>Add user</h2>
+							</div> 
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Выйти</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
