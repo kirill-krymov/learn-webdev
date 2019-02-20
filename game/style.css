@@ -1,0 +1,25 @@
+ body
+	{
+ 	background: black; /* Чёрный цвет фона */
+   	color: white; /* Белый цвет шрифта */
+   }
+   a { 
+   	color: white;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    font-family: Roboto Mono;
+   } 
+   a:hover {
+    color: red; /* Цвет ссылки при наведении на нее курсора мыши */  
+    font-family: Roboto Mono;
+   }
+   #content {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+   }
+   #footer {
+    position: fixed; /* Фиксированное положение */
+    right: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    color: white; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }

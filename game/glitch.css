@@ -1,0 +1,18 @@
+.text-typing
+{
+    width: 40em;
+    color:white;
+    font-size: 22px;
+    font-family: 'Roboto+Mono:300';
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+@keyframes type{
+    from { width: 0; }
+}
+ 
+@-webkit-keyframes type{
+    from { width: 0; }
+}
